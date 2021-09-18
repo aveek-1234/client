@@ -39,10 +39,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Chatter</h1>
-        <Chats />
+        <Chats className="chats" />
         <form onSubmit={sendchat}>
           <input type="text" 
-          name="chat" 
+          name="chat"
+          className="getchat" 
           placeholder="Write a message" 
           value={message} 
           onChange={(e)=>{setmessage(e.target.value)}}>

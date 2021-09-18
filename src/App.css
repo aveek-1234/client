@@ -1,8 +1,9 @@
 .App {
   text-align: center;
 }
-
-
+.getchat{
+  width: 50vw;
+}
 
 .App-header {
   background-color: #282c34;
@@ -16,11 +17,27 @@
 }
 
 .recieve{
+  word-break: break-all;
+  background-color: rgb(221, 12, 211);
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 350px;
+  font-size: 15px;
   left: -250px;
+  right: 100px;
 }
 
 .send{
+  background-color: brown;
+  word-break: break-all;
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  max-width: 350px;
   left: 200px;
+  right: 250px;
+  font-size: 15px;
 }
